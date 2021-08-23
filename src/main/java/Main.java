@@ -9,6 +9,7 @@ public class Main {
         m1.listLoans();
         System.out.println("profit from m1: " + m1.calculateProfitEarned());
 
+        // New comment
         LoanManager m2 = new LoanManager();
         m2.addLoan("Alice Betsy", 500, 0.05);
         m2.addLoan("Emily Hee", 25, 0.15);
